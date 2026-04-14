@@ -16,3 +16,4 @@ def calcular_cashback(valor_compra: float, desconto_percentual: float, vip: bool
     cashback_total = cashback_base + bonus_vip
 
     return round(cashback_total, 2)
+

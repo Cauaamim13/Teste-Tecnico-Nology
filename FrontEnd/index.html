@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Cashback App</title>
 </head>
 <body>
 
-    <div>
+    <div class="container">
 
     <h1>Calcule seu Cashback</h1>
     <p>Insira os dados da compra e veja quanto você recebe de volta instantaneamente.</p>
 
+    <div class="input-group">
     <input type="number" id="valorCompra" placeholder="Valor da Compra...">
 
-    <select id="TipoCliente">
-        <option value="Cliente Normal">Cliente Normal</option>
-        <option value="VIP">VIP</option>
+    <select id="tipoCliente">
+        <option value="normal">Cliente Normal</option>
+        <option value="vip">VIP</option>
     </select>
 
     <button onclick="enviarDados()">Calcular Cashback</button>
@@ -27,7 +29,9 @@
     <hr>
     <h3>Seu Histórico (IP: <span id="userIp">...</span>)</h3>
     <ul id="listaHistorico"></ul>
+    </div>
     
 
+<script src="script.js"></script>
 </body>
 </html>
