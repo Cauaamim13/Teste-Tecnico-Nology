@@ -11,7 +11,7 @@ Este projeto foi desenvolvido como resolução do **Desafio Técnico para Estág
 
 ## 🔗 Links de Produção
 
-- **Frontend (Aplicação Web):** [Acesse o App Aqui](https://teste-tecnico-nology-ddio.vercel.app/)
+- **Frontend (Aplicação Web):** [Acesse o App Aqui](https://calculecash.vercel.app/)
 - **Backend (Documentação da API):** [Swagger UI](https://teste-tecnico-nology.onrender.com/docs)
 
 ---
