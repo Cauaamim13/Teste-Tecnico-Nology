@@ -36,10 +36,11 @@ async function atualizarHistorico() {
             const logs = await response.json();
             const lista = document.getElementById('listaHistorico');
              lista.innerHTML = "";
+
+             
                 
-             if (logs.length > 0) {
-                document.getElementById('userIp').innerText = logs[0].ip_usuario;
-                }
+            // if (logs.length > 0) {
+             //   document.getElementById('userIp').innerText = logs[0].ip_usuario;}
                 
          logs.forEach(log => {
                 const li = document.createElement('li');
